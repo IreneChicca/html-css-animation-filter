@@ -208,3 +208,65 @@
   width: 60px;
   height: 20px;
 }
+
+
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: movetop;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+
+}
+
+
+@keyframes movetop {
+
+  0% {
+    left: 10%;
+
+
+  }
+
+  50% {
+    left: 65%;
+  }
+
+
+  100% {
+    left: 10%;
+  }
+
+
+}
+
+
+
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: movebot;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+
+}
+
+
+@keyframes movebot {
+
+  0% {
+    right: 20%;
+
+
+  }
+
+  50% {
+    right: 65%;
+  }
+
+
+  100% {
+    ight: 20%;
+  }
+
+
+}
