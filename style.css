@@ -131,10 +131,24 @@
 
 .ex-10-icon {
   font-size: 60px;
+  animation-name: rotazione;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
 }
+
+@keyframes rotazione {
+  0% {
+    transform: rotate(360deg)
+  }
+}
+
+/*da rivedere*/
 
 .ex-11-icon {
   font-size: 60px;
+
 }
 
 .ex-12-button,
