@@ -265,7 +265,106 @@
 
 
   100% {
-    ight: 20%;
+    right: 20%;
+  }
+
+
+}
+
+
+
+
+
+
+.ex-13-button:hover .ex-13-top-white {
+  animation-name: movetop2;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+
+}
+
+
+
+
+@keyframes movetop2 {
+
+  0% {
+    left: 10%;
+
+
+  }
+
+  30% {
+    left: 85%;
+    top: -10px;
+  }
+
+  60% {
+    left: 85%;
+    top: 80%;
+  }
+
+  80% {
+    left: -5%;
+    top: 80%;
+  }
+
+  90% {
+    left: -5%;
+    top: -5%;
+  }
+
+  100% {
+    left: 10%;
+    top: -5%;
+  }
+
+
+}
+
+
+
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: movebot2;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+
+}
+
+
+@keyframes movebot2 {
+
+  0% {
+    right: 20%;
+
+
+  }
+
+  30% {
+    right: 85%;
+    top: 80%;
+  }
+
+  60% {
+    right: 85%;
+    top: -5%;
+  }
+
+  80% {
+    top: -5%;
+    right: -5%;
+  }
+
+  90% {
+    top: 80%;
+    right: -5%;
+  }
+
+  100% {
+    right: 20%;
   }
 
 
