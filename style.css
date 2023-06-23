@@ -144,12 +144,35 @@
   }
 }
 
-/*da rivedere*/
 
 .ex-11-icon {
   font-size: 60px;
+  transition: all 3s;
 
 }
+
+.ex-11-icon:hover {
+  animation-name: ruota;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+
+}
+
+@keyframes ruota {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  90% {
+    transform: rotate(270deg)
+  }
+
+  100% {
+    transform: rotate(0deg)
+  }
+}
+
+
 
 .ex-12-button,
 .ex-13-button {
